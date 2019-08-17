@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
-      parallelizeBuildables = "YES"
+      parallelizeBuildables = "NO"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7D42B9AB1C05EE9A0084D045"
-               BuildableName = "swiftScan.app"
-               BlueprintName = "swiftScan"
+               BlueprintIdentifier = "D6DC96F31F6D0C0200E1CCEB"
+               BuildableName = "SwiftScanner.framework"
+               BlueprintName = "SwiftScanner"
                ReferencedContainer = "container:swiftScan.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -51,15 +51,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7D42B9AB1C05EE9A0084D045"
-            BuildableName = "swiftScan.app"
-            BlueprintName = "swiftScan"
-            ReferencedContainer = "container:swiftScan.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -69,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7D42B9AB1C05EE9A0084D045"
-            BuildableName = "swiftScan.app"
-            BlueprintName = "swiftScan"
+            BlueprintIdentifier = "D6DC96F31F6D0C0200E1CCEB"
+            BuildableName = "SwiftScanner.framework"
+            BlueprintName = "SwiftScanner"
             ReferencedContainer = "container:swiftScan.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
